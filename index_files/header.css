@@ -1,0 +1,156 @@
+﻿
+.fa-facebook:before{content:""}
+.fa-twitter:before{content:""}
+.fa-instagram:before{content:""}
+@font-face{font-family:FontAwesome;src:url(../fonts/fontawesome-webfont.eot?v=4.7.0);src:url(../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format("embedded-opentype"),url(../fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2"),url(../fonts/fontawesome-webfont.woff?v=4.7.0) format("woff"),url(../fonts/fontawesome-webfont.ttf?v=4.7.0) format("truetype"),url(../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format("svg");font-weight:400;font-style:normal}
+.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+body{margin:0}
+header,nav{display:block}
+a{background-color:transparent}
+a:active,a:hover{outline:0}
+img{border:0}
+@font-face{font-family:Glyphicons Halflings;src:url(../fonts/glyphicons-halflings-regular.eot);src:url(../fonts/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"),url(../fonts/glyphicons-halflings-regular.woff2) format("woff2"),url(../fonts/glyphicons-halflings-regular.woff) format("woff"),url(../fonts/glyphicons-halflings-regular.ttf) format("truetype"),url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg")}
+*,:after,:before{box-sizing:border-box}
+html{font-size:10px;-webkit-tap-highlight-color:transparent}
+body{font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}
+a{color:#337ab7;text-decoration:none}
+a:focus,a:hover{color:#23527c;text-decoration:underline}
+a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}
+img{vertical-align:middle}
+[role=button]{cursor:pointer}
+ul{margin-top:0;margin-bottom:10px}
+@-ms-viewport{width:device-width}
+@media print{*,:after,:before{color:#000!important;text-shadow:none!important;background:0 0!important;box-shadow:none!important}
+a,a:visited{text-decoration:underline}
+a[href]:after{content:" (" attr(href) ")"}
+img{page-break-inside:avoid}
+img{max-width:100%!important}
+}
+body,html{background:#fff;width:100%;height:auto;margin:0;padding:0;font-family:Open Sans,sans-serif;font-weight:400;font-size:10px}
+a{color:#000}
+a:focus,a:hover{color:#444;text-decoration:none}
+*{outline:0}
+.navmenu{margin:0;padding:0;list-style:none;display:flex;justify-content:space-between;align-items:center;width:100%}
+.navmenu__item{position:relative}
+.navmenu__link{display:block;border-bottom:none;font-size:12px;font-size:1.2rem;font-weight:600;line-height:12px}
+.navmenu__link:hover{color:#999!important}
+.navmenu_horizontal{float:right}
+.navmenu_horizontal .navmenu__item{float:left;padding:13px 0 8px}
+.navmenu_horizontal .navmenu__link,.navmenu_horizontal .navmenu__link:hover{padding-bottom:3px;font-size:12px;font-size:1.2rem;letter-spacing:.68px}
+.social-links{vertical-align:top}
+.social-links__icon{display:inline-block;margin-right:22px;color:#fff}
+.social-links__icon:hover{opacity:.7;color:#fff}
+.social-links__icon:last-child{margin-right:0}
+.social-links__icon_fb{position:relative;top:-1px;font-size:17px;font-size:1.7rem}
+.social-links__icon_tw{position:relative;left:.8px;font-size:21px;font-size:2.1rem}
+.social-links__icon_insta{position:relative;top:-1px;left:-.5px;font-size:19px;font-size:1.9rem}
+.main-menu{display:flex;flex-direction:row;position:relative;height:auto;background:#fff linear-gradient(0deg,#2d2d2e 36px,#e10005 0);}
+.main-menu__container{display:flex;flex-direction:column;position:relative;width:980px;height:100%;margin:auto}
+.main-menu__container-top{display:flex;flex-direction:row;justify-content:space-between;height:100px}
+.main-menu__container-top--left,.main-menu__container-top--middle{display:flex;flex-direction:row;align-items:center}
+.main-menu__container-top--middle{position:relative;left:18px}
+.main-menu__container-top--right{display:flex;flex-direction:row-reverse;align-items:center;width:250px}
+.main-menu__container-bottom{display:flex;flex-direction:row;height:35px;max-height:35px;box-sizing:border-box;padding:9px 0}
+[class=main-menu__container-top--left] .main-menu__logo{margin-left:20px}
+.main-menu__menus{display:flex;width:100%}
+.main-menu__menubar .navmenu__link{color:#fff;border-bottom:1px solid transparent}
+.main-menu__menubar .navmenu__link:hover{color:#999!important}
+.main-menu__toggle{display:flex;width:25px;height:21px;color:#fff;background:url(../img/menu-burger-icon_2x.png) no-repeat;background-size:25px 21px;cursor:pointer}
+.main-menu__toggle:hover{opacity:.7}
+.main-menu__social{float:right;margin-right:14.5px}
+.logo,.logo__image{position:relative}
+.logo__image{display:flex}
+.logo__vertical{width:95px;height:auto}
+.logo__horizontal{width:168px;height:auto}
+body:not(.ece_frontpage) .main-menu__container-top{height:50px}
+body:not(.ece_frontpage) .logo__vertical{display:none}
+body:not(.ece_frontpage) .logo__horizontal{display:flex}
+.navmenu_horizontal{float:none}
+.navmenu_horizontal .navmenu__item:last-child{padding-right:0}
+
+body{overflow-x:hidden}
+.main-menu{background:#e10005}
+.main-menu__container{width:100%}
+.main-menu__container-bottom .main-menu__menus,.main-menu__container-top{align-self:center}
+.main-menu__container-bottom{transition:opacity .2s ease-out,height .3s ease-out,padding .2s ease-out;justify-content:center;background:#2d2d2e}
+body>#header{width:100%;}
+a:hover{color:#222}
+
+
+
+/*#region mobile-header */
+.navbar {
+    position: relative;
+    width: 100%;
+    background: #e10005;
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    border: none;
+    min-height: 50px;
+    max-height: 100vh;
+    min-height: 52px!important;
+    border:1px solid #fff;
+}
+ .navbar__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 10px;
+}
+ .navbar,  .navbar__header {
+  min-height: 52px!important;
+}
+.menu-footer{clear:both;text-align:center}
+.menu-footer p{font-family:Roboto Slab,sans-serif;color:#e4e4e4;text-align:center;font-size:10px;font-size:1rem;margin-bottom:0}
+.menu-footer__company{display:block;background-image:url(../images/24Media.png);background-repeat:no-repeat;background-position:50%;background-size:35px 38px;width:35px;height:38px;margin:4px auto 21px}
+.menu-footer__newsletter-button{width:226px;height:33px;text-align:center;position:relative;clear:both;float:none;background-color:#e20004;border-radius:16px;margin:0 auto 30px}
+.menu-footer__newsletter-button a{font-family:Roboto Slab,sans-serif;color:#fff;font-size:15px;font-size:1.5rem;font-weight:400;text-decoration:none;top:6px;position:relative}
+.menu-footer__border{border-top:1px solid #e4e4e4;width:50px;margin:21px auto}
+.menu-footer__rest{margin-bottom:30px}
+.menu-footer__rest a{font-family:Roboto Slab,sans-serif;font-weight:300;color:#444;text-decoration:none;font-size:10px;font-size:1rem;margin:0 10px}
+.menu-footer__menu-social{height:32px;margin:0 auto 23px;text-align:center;position:relative}
+.menu-footer__menu-social a{display:block;width:100%;height:100%}
+.menu-footer__menu-social div{position:absolute}
+.menu-footer__facebook{background-image:url(../images/Facebook.png);background-size:15px 28px;width:15px;height:28px;top:0;left:76px}
+.menu-footer__twitter{background-image:url(../images/Twitter.png);background-size:30px 26px;width:30px;height:26px;position:relative;float:none;margin:auto;left:0;right:0}
+.menu-footer__instagram{background-image:url(../images/Insta.png);background-size:26px 26px;width:26px;height:26px;top:0;right:78px}
+a{text-decoration:none}
+.row{padding:0;margin:0}
+.navbar__collapse.collapse{-webkit-overflow-scrolling:touch;overflow-y:scroll}
+ .navbar__latest {
+    display: block;
+    background-image: url(../img/latest2020_2x.png);
+    background-size: 25px 25px;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+}
+ .navbar__brand {
+    display: block;
+    background-image: url(../img/news247-logo2020_2x.png?0.001);
+    background-size: 136px 24px;
+    width: 136px;
+    height: 24px;
+}
+ .navbar__menu {
+    display: block;
+    background-image: url(../img/toggle2020_2x.png);
+    background-size: 25px 20px;
+    width: 25px;
+    height: 20px;
+}
+
+.navbar-default{
+    display:none;
+}
+@media only screen and (max-width: 768px){
+    .wrapper-sticky{
+        display:none;
+    }
+.navbar-default{
+    display:block;
+}
+}
+/*#endregion */

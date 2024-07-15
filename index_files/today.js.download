@@ -1,0 +1,10 @@
+function today() {
+    var dayNames = 'Κυριακή_Δευτέρα_Τρίτη_Τετάρτη_Πέμπτη_Παρασκευή_Σάββατο'.split('_');
+
+    var monthNames = 'Ιανουαρίου_Φεβρουαρίου_Μαρτίου_Απριλίου_Μαΐου_Ιουνίου_Ιουλίου_Αυγούστου_Σεπτεμβρίου_Οκτωβρίου_Νοεμβρίου_Δεκεμβρίου'.split('_');
+
+    var now = new Date();
+
+    //Σάββατο, 18 Δεκεμβρίου 2021
+    document.write(dayNames[now.getDay()] + ", " +  now.getDate() + " " + monthNames[now.getMonth()] +" "+now.getFullYear() );
+}
